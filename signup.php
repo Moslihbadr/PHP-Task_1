@@ -45,8 +45,8 @@ if (isset($_POST['submit'])) {
   } else {
     // Define new data to be added
     $new_data = array(
-      'fname' => $fname,
-      'lname' => $lname,
+      'first name' => $fname,
+      'last name' => $lname,
       'email' => $email,
       'password' => $password
     );
