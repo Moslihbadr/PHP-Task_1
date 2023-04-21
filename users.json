@@ -24,15 +24,21 @@
     "password": "utidryrdr"
   },
   {
-    "fname": "Jamal",
-    "lname": "AitJack",
+    "first name": "Jamal",
+    "last name": "AitJack",
     "email": "Jamal@gmail.com",
     "password": "ftugkjv"
   },
   {
-    "fname": "Yassine",
-    "lname": "Guarrah",
+    "first name": "Yassine",
+    "last name": "Guarrah",
     "email": "Yassine@gmail.com",
     "password": "uyrouyfy"
+  },
+  {
+    "first name": "",
+    "last name": "test",
+    "email": "test@gmail.com",
+    "password": "tufufyvuutf"
   }
 ]
