@@ -11,6 +11,7 @@
     <input type="email" name="email" placeholder="email" required><br> <br> 
     <input type="password" name="password" placeholder="password" required> <br> <br>
     <input type="submit" value="login"> <br> <br>
+    <span>you don't have an account ,<a href="./signup.php">sign up</a></span>
   </form>
   <br> <br>
   <?php
@@ -24,7 +25,7 @@
         echo 'Welcome Mr '. $user['last name'] . ' to admin page ';
         break;
       }elseif($user['password'] != $password || $user['email'] != $email) {
-        echo 'invalid password or email';
+        echo 'wrong password or email';
         break;
       }
     }
